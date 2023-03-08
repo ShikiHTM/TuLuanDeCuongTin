@@ -4,7 +4,7 @@ var
 s: string;
 i: integer;
 
-{Ý tưởng: thay vì xoá thì chỉ cần in ra ký tự thay vì ký tự số}
+{Ý tưởng: thay vì xoá thì chỉ cần in ra ký tự chữ thay vì ký tự số}
 
 function isDigit(s: string): boolean;   {Hàm này dùng để kiểm tra xem trong xâu có tồn tại ký tự số hay không}
 var flags: boolean;
