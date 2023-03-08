@@ -12,12 +12,6 @@ begin
     read(a[i]);
 end;
 
-procedure Output(var n: integer; var a: arr);
-var i: integer;
-begin
-    for i:=1 to n do write(a[i]:2);
-end;
-
 function MAXN(var n: integer; var a:arr): integer; {Hàm này dùng để tìm số lớn nhất trong mảng}
                                                     {Bằng cách tạo một biển temperary(tạm thời)}
                                                     {để lưu giá trị lớn nhất (ở đây là biến tmp) sau}
@@ -35,7 +29,6 @@ end;
 
 begin
     Input(n, a);
-    Output(n, a);
     writeln;
     write(MAXN(n, a));
 end.
